@@ -1,0 +1,636 @@
+/* defoult css */Permanent+Marker&display=swap
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=ZCOOL+KuaiLe&display=swap');
+html{
+    
+    
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kaushan Script', cursive;
+    background: #dfdfdf;
+  
+}
+
+    
+
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+section{
+    padding: 80px 0px;
+}
+
+.fixed-width{
+    width: 960px;
+    margin: auto;
+}
+.clear-fix::after{
+   content:'';
+   display:block;
+   clear: both;
+ 
+}
+img {
+    max-width: 100%;
+}
+.logo{
+    display: inline-block;
+}
+.logo img { 
+   
+    width: 150px;
+    cursor: pointer;
+}
+    
+
+i{
+    padding: 2px;
+}
+
+#header_area{
+    background: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 960px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.right-side{
+float: right;
+padding-top: 45px
+}
+.options{
+    float: left;
+}
+.options ul{
+display: inline-block;
+
+}
+.options ul li{
+list-style: none;
+float: left;
+
+
+}
+.options ul li a{
+color: rgb(2, 2, 2);
+text-decoration: none;
+display: inline-block;
+text-transform: uppercase;
+padding:0px 10px;
+margin-left: -2px;
+transition: .4s;
+
+font-family: 'Kaushan Script', cursive;
+}
+
+.options ul li  :hover{
+    color: #3de0f8;
+   
+}
+
+.icons{
+    display: inline-block;
+    padding-left: 25px;
+   
+}
+.icons ul{
+    padding-left: 3px;
+}
+.icons ul li {
+    list-style: none;
+    float: left;
+    padding: 0px 5px ;
+}
+.icons ul li a{
+    color: #ffffff;
+    margin-left: -5px;
+    border-radius: 50%;
+    padding: 5px;
+    background: #3de0f8;
+    transition: .7s;
+    display: grid;
+    text-decoration: none;
+}
+
+.icons ul li :hover{
+    background: tomato;
+    transition: .6s;
+}
+
+.mainphoto{
+    float: right;
+    position: relative;
+    right: 185px;
+    bottom: 0px;
+    overflow: hidden;
+    height: 490px;
+}
+
+.mainphoto img{
+    transition: 1s;
+}
+
+.mainphoto img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.texts{
+    float: right;
+    position: absolute;
+    top: 195px;
+    left: 150px;
+}
+.texts h1{
+    text-transform: uppercase;
+   
+}
+.texts h3{
+    text-align: center;
+    text-transform: capitalize;
+  
+}
+
+
+.btn button{
+    border: none;
+}
+
+.btn button a {
+    color: #fff;
+    background: tomato;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.btn button a:hover{
+    background:aqua;
+    color: #000;
+    
+}
+
+
+/* ===================================
+about me cs
+========================================*/
+
+#about_me{
+    background: #dfdfdf;
+   
+}
+
+.section_title{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.section_title h2{
+    text-transform: uppercase;
+    color: skyblue;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.section_title h2 span{
+    color: tomato;
+}
+
+.section_title h2::before {
+    content: "";
+    position: absolute;
+    background: skyblue;
+    width: 110px;
+    height: 3px;
+    left: 30%;
+    top: 15px;
+    border-radius: 10px;
+}
+
+.section_title h2::after {
+    content: "";
+    position: absolute;
+    background: skyblue;
+    width: 110px;
+    height: 3px;
+    right: 30%;
+    top: 15px;
+    border-radius: 10px;
+}
+
+
+.inner_aboutMe{
+    background: #fff;
+    overflow: hidden;
+    padding: 30px 20px;
+    border-radius: 10px;
+
+}
+
+.left_aboutme{
+    width: 25%;
+    float: left;
+}
+
+.left_aboutme img{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 1s;
+}
+.left_aboutme img:hover{
+    transform:translateY(-15px);
+    
+}
+
+
+
+.social_icons{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social_icons h3{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.social_icons ul{
+    list-style: none;
+    text-align: center;
+}
+
+.social_icons ul li{
+    display: inline-block;
+
+}
+
+.social_icons ul li a{
+    color: #000;
+    font-size: 35px;
+    color: #A7A7A7;
+    margin: 0px 5px;
+}
+
+.right_abotMe{
+    width: 70%;
+    float: right;
+    overflow: hidden;
+
+}
+
+.right_abotMe p{
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+
+ul.left_ul {
+    width: 300px;
+    float: left;
+}
+
+.right_abotMe ul{
+    list-style: none;
+}
+.right_abotMe ul li{
+    display: block;
+    margin-bottom: 5px;
+}
+.right_abotMe ul li i{
+    margin-right: 10px;
+    font-size: 15px;
+    color: skyblue;
+}
+
+.right_abotMe h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/*=========================================================
+Skills Cs
+===========================================================*/
+
+#skill_area{
+    background: url(../images/skill\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.skill_title h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.skill_title {
+    margin-bottom: 20px;
+}
+
+
+#inner_components{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 80px;
+}
+
+#inner_components li{
+    list-style:none;
+    margin:10px 0px;
+
+}
+
+#inner_components li h3{
+    margin-bottom:10px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.bar{
+    display:block;
+    background: #fff;
+    height:5px;
+    border:1px solid skyblue;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 1px 2px 3px;
+}
+
+.bar span{
+    background: #0998d1;
+    height: 5px;
+    float: left;
+}
+
+.html{
+    width:95%;
+    animation: html 5s;
+}
+.css{
+    width:80%;
+    animation: css 5s;
+
+}
+.bootstrap{
+    width:70%;
+    animation: bootstrap 5s;
+
+}
+.javascript{
+    width:40%;
+    animation: javascript 5s;
+
+}
+.jquary{
+    width:30%;
+    animation: jquary 5s;
+
+}
+.photoshop{
+    width:50%;
+    animation: photoshop 5s;
+
+}
+
+@keyframes html{
+    from{
+        width:0%;
+    }
+    to{
+        width:95%
+    }
+}
+@keyframes css{
+    from{
+        width:0%;
+    }
+    to{
+        width:80%
+    }
+}
+@keyframes bootstrap{
+    from{
+        width:0%;
+    }
+    to{
+        width:70%
+    }
+}
+@keyframes javascript{
+    from{
+        width:0%;
+    }
+    to{
+        width:40%
+    }
+}
+@keyframes jquary{
+    from{
+        width:0%;
+    }
+    to{
+        width:30%
+    }
+}
+@keyframes photoshop{
+    from{
+        width:0%;
+    }
+    to{
+        width:50%
+    }
+}
+
+/*===================================================================================
+        SERVICES
+====================================================================================*/
+
+section#SERVICES\ clear-fix\ text-center {
+    overflow: hidden;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service-item {
+    float: left;
+    width: 31%;
+    text-align: center;
+    background: snow;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: .5%;
+    margin-left: 1.5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    transition: 1s;
+    margin-bottom: 30px;
+}
+.service-item p{
+    margin-bottom: 15px;
+}
+
+.service h2{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.service-item span {
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin: auto;
+    background: rgb(231,76,60);
+    font-size: 25px;
+    line-height: 60px;
+    border-radius: 20px 0;
+    transition: 1s;
+  }
+  .service-item:hover span{
+      background: aqua;
+  }
+  .service-item h3 {
+    margin: 20px 0;
+    font-size: 30px;
+    width: 20px 30px;
+  }
+  .service-item button{
+   border: none;
+   margin-bottom:30px;
+   
+  }
+  .service-item button a{
+      text-transform: uppercase;
+      text-decoration: none;
+      color: black;
+      background-color: orange;
+      padding: 5px 10px;
+      border-radius: 10px;
+      cursor: pointer;
+     font-weight: bold;
+     transition: 1s;
+ }
+ .service-item button :hover{
+     color: white;
+     background-color: black;
+     
+ }
+ .service-item:hover {
+    transform: translateY(-15px);
+    transition: 1s;
+}
+
+
+/*===========================================================================
+          CONTACT ME 
+============================================================================*/
+#contact_me{
+    background: url(../images/BALOON.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact_me .section_title h2{
+    color: skyblue;
+}
+
+#contact_me .section_title h2::after{
+    background: skyblue;
+}
+
+#contact_me .section_title h2::before{
+    background: skyblue;
+}
+
+#contact_me .section_title h4{
+    color: #fff;
+}
+.inner_contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 320px;
+}
+
+.inner_contact input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+
+}
+.inner_contact textarea{
+    width: 100%;
+    resize: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+.inner_contact input[type="submit"]{
+    background: skyblue;
+    margin-bottom: 0px;
+    border: 1px solid skyblue;
+    color: #fff;
+}
+
+.inner_contact input[type="submit"]:hover{
+    background: transparent;
+}
+
+/* footer css */
+
+
+#footer_area{
+    background : url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px;
+    border-top: 1px solid #fff;
+}
+
+.innner_area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_left p{
+    color: #fff;
+}
+
+.footer_right ul{
+    text-align: right;
+    list-style: none;
+}
+
+.footer_right ul li{
+    display: inline-block;
+
+}
+.footer_right ul li a{
+text-decoration: none;
+color: #fff;
+margin-left: 10px;
+}
